@@ -48,10 +48,10 @@
 				</div>	
 				<div class="block123">
 					<div class="platejka">
-						<div class="platejka_content">
+						<a href="#openModal"><div class="platejka_content">
 							<img src="./png/card.png" alt="Card">
 							<div class="block_text">Банковские карты РФ</div>
-						</div>
+						</div></a>
 					</div>	
 
 					<div class="platejka1">
@@ -92,7 +92,20 @@
 			</div>
 		</div>
 		<div id="openModal" class="modal">
-  
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Оплата товара</h3>
+        <a href="#close" title="Close" class="close">×</a>
+      </div>
+      <div class="modal-body">    
+        <p>Номер банковской карты Сбербанк</p>
+        <input type="text" readonly class="inputemail" value="2202 2023 1923 2132">
+        <p>Сумма</p>
+        <input type="text" readonly class="inputemail" value="100,00">
+        <p>Пополнение придет автоматически после перевода средств</p>
+      </div>
+    </div>
   </div>
 </div>
 	</main>
