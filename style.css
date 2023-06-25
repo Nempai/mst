@@ -1,0 +1,146 @@
+body {
+	background: #fff;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.block_left {
+	display: flex;
+	justify-content: center;
+	margin-top:1vh;
+}
+.block_container {
+	width:25%;
+	height:90vh;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.block_container1 {
+	width:30%;
+	height:90vh;
+	border:1px solid #ccc;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.mst {
+	display:flex;
+	width:90%;
+	height:75px;
+	background: rgb(241, 241, 241);
+	margin:auto;
+	margin-top:5vh;
+	border-radius:10px;
+}
+
+.mst img {
+	width:50px;
+	height:50px;
+	margin-top:1.5vh;
+	margin-left:2.5%;
+}
+.mst span {
+	margin-top:3vh;
+	font-weight: 300;
+	font-size: 14px;
+	margin-left:3%;
+}
+
+.price {
+	display: inline-block;
+	font-size: 25px;
+	color:#007bff;
+	margin-left:5%;
+	margin-top:5px;
+	font-weight: 300;
+}
+.button {
+	margin-top:5px;
+	display:flex;
+	justify-content: center;
+
+}
+.button button {
+	width:44%;
+	padding:0.4rem 0.5rem;
+	background-color: #0d6efd;
+	border-color:#0d6efd;
+	color:#fff;
+	border:none;
+	font-size:15px;
+	border-radius:0.25rem;
+}
+.button button:hover {
+	background: #0b5ed7;
+}
+.onebtn {
+	margin-left:5px;
+}
+.twobtn {
+	margin-left:2.5px;
+}
+.info {
+	display:flex;
+	margin-left:7%;
+	margin-top:3rem;
+}
+.nickname, .id, .idtwo {
+	font-weight: 300;
+	font-size:15px;
+}
+.id {
+	margin-left:28px;
+}
+
+.info_two {
+	display:flex;
+	margin-left:7%;
+	margin-top:0.5rem;
+}
+.idtwo {
+	margin-left:50px;
+}
+.offer {
+	font-weight: 300;
+	font-size:.680em;
+}
+.block_offer {
+	width:80%;
+	margin:auto;
+	margin-top:35px;
+}
+.cart {
+	font-weight: 300;
+	font-size: 12px;
+	display:flex;
+	justify-content: center;
+	margin-top:5vh;
+}
+
+.form-control {
+	
+}
+@media (max-width: 768px) {
+	.block_left {
+		flex-direction: column;
+		align-items: center;
+	}
+	.block_container {
+		width:99%;
+		height:60vh;
+		border-left:1px solid #ccc;
+		border-bottom:none;
+		border-right:1px solid #ccc;
+		border-raduis: none;
+	}
+		.block_container1 {
+		width:99%;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		border-top:none;
+		border-raduis: none;
+	}
+}
+
