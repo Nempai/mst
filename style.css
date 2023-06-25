@@ -142,7 +142,7 @@ body {
 .block123 {
 	display:flex;
 	justify-content: center;
-	margin-top:2vh;
+	margin-top:0.5vh;
 	        user-select: none;
         -moz-user-select: none;
         -khtml-user-select: none;
@@ -151,7 +151,7 @@ body {
 }
 .block1234 {
 	display:flex;
-	margin-top:2vh;
+	margin-top:0.5vh;
 	margin-left:4.9%;
 }
 .platejka {
@@ -336,24 +336,27 @@ body {
 	}
 	.platejka {
 	width:45%;
-	height:12vh;
+	height:15vh;
 	background: white;
 	margin-left:5px;
 	border:1px solid #ccc;
 }
 .platejka1 {
 	width:45%;
-	height:12vh;
+	height:15vh;
 	background: white;
 	margin-left:5px;
 	border:1px solid #ccc;
 }
 .platejka2 {
 	width:47%;
-	height:12vh;
+	height:15vh;
 	background: white;
 	margin-left:-2px;
 	border:1px solid #ccc;
+}
+.block123 {
+
 }
 }
 
