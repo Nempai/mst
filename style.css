@@ -117,9 +117,79 @@ body {
 	justify-content: center;
 	margin-top:5vh;
 }
-
-.form-control {
-	
+.input_content {
+	display: flex;
+	justify-content: center;
+}
+.inputemail {
+	width:80%;
+	padding: .375rem .75rem;
+	font-weight: 400;
+	border-radius: .25rem;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.metod {
+	font-weight: 300;
+	font-size: 12px;
+	display:flex;
+	justify-content: center;
+	margin-top:1vh;
+}
+.block123 {
+	display:flex;
+	justify-content: center;
+	margin-top:1vh;
+}
+.block1234 {
+	display:flex;
+	margin-top:1vh;
+	margin-left:5%;
+}
+.platejka {
+	width:45%;
+	height:16vh;
+	background: white;
+	margin-left:5px;
+	border:1px solid #ccc;
+}
+.platejka1 {
+	width:45%;
+	height:16vh;
+	background: white;
+	margin-left:2.5px;
+	border:1px solid #ccc;
+}
+.platejka2 {
+	width:47%;
+	height:15vh;
+	background: white;
+	border:1px solid #ccc;
+}
+.platejka_content img {
+	margin-left:25%;
+}
+.platejka_content img {
+	width:98px;
+	height:68px;
+}
+.block_text {
+	font-weight: 300;
+	font-size: 10px;
+	text-align: center;
+}
+.block_ukraine {
+	width:90%;
+	margin:auto;
+	margin-top:35px;
+}
+.ukraine_text {
+	font-weight: 300;
+	font-size:.680em;
+	color:#6c757d!important;
 }
 @media (max-width: 768px) {
 	.block_left {
@@ -142,5 +212,26 @@ body {
 		border-top:none;
 		border-raduis: none;
 	}
+	.platejka {
+	width:45%;
+	height:12vh;
+	background: white;
+	margin-left:5px;
+	border:1px solid #ccc;
+}
+.platejka1 {
+	width:45%;
+	height:12vh;
+	background: white;
+	margin-left:5px;
+	border:1px solid #ccc;
+}
+.platejka2 {
+	width:47%;
+	height:12vh;
+	background: white;
+	margin-left:-2px;
+	border:1px solid #ccc;
+}
 }
 
