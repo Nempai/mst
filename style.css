@@ -142,7 +142,7 @@ body {
 .block123 {
 	display:flex;
 	justify-content: center;
-	margin-top:0.5vh;
+	margin-top:1vh;
 	        user-select: none;
         -moz-user-select: none;
         -khtml-user-select: none;
@@ -151,7 +151,7 @@ body {
 }
 .block1234 {
 	display:flex;
-	margin-top:0.5vh;
+	margin-top:1vh;
 	margin-left:4.9%;
 }
 .platejka {
